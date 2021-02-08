@@ -120,6 +120,7 @@ h1 {
 @media (max-width: 575.98px) { 
   .between{
     font-size: 10px;
+    top: 3.5rem;
   }
   .again{
     top: 1rem;
@@ -135,9 +136,11 @@ h1 {
   .guess {
     width: 12rem;
     font-size: 2rem;
+    padding: 1rem 0;
   }
   .message {
     font-size: 15px;
+    padding-top: 30px;
   }
   .score {
     font-size: 15px;
@@ -153,5 +156,11 @@ h1 {
   }
   .check {
     padding: 1rem 1rem;
+  }
+  main {
+    height: 40vh;
+  }
+  header {
+    height: 30vh;;
   }
 }
