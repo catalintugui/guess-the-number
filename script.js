@@ -19,6 +19,10 @@ document.querySelector('.check').addEventListener('click', function(){
         document.querySelector('.highscore').textContent = score;
         secretNumber = Math.trunc(Math.random() * 20) + 1;
         document.querySelector('.guess').value = '';
+        if(score > highscore){
+            highscore = score;
+            document.querySelector('.highscore') = highscore;
+        }
         } else if (secretNumber > guess) {
             if (score > 1) {
                 document.querySelector('.message').textContent = "Too low...";
