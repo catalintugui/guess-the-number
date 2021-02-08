@@ -8,7 +8,7 @@ document.querySelector('.check').addEventListener('click', function(){
     const guess = Number(document.querySelector('.guess').value);
     if(!guess || guess < 1 || guess ==='') {
     document.querySelector('.message').textContent = "Pick above 0";
-    } else if (secretNumber === guess && guess > 0){
+    } else if (secretNumber === guess && guess > 0 ){
         document.querySelector('h1').textContent = "Good choice!"
         document.querySelector('.message').textContent = "Correct number!";
         document.querySelector('.number').textContent = guess;
