@@ -18,8 +18,6 @@ document.querySelector('.check').addEventListener('click', function(){
                 document.querySelector('.number').style.backgroundColor = "white";
                 document.querySelector('body').style.backgroundColor = "green";
                 score += 5;
-                document.querySelector('.score').textContent = score;
-                document.querySelector('.highscore').textContent = score;
                 secretNumber = Math.trunc(Math.random() * 20) + 1;
                 document.querySelector('.guess').value = '';
             if(score > highscore){
