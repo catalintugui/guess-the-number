@@ -134,11 +134,15 @@ h1 {
   }
   .guess {
     width: 12rem;
+    font-size: 2rem;
   }
   .message {
     font-size: 15px;
   }
   .score {
+    font-size: 15px;
+  }
+  .label-score{
     font-size: 15px;
   }
   .label-highscore {
